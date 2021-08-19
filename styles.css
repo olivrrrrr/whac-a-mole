@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid; 
+    width: 500px; 
+    height: 500px; 
+    border: 1px solid black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+}
+
+.grid div{
+    border: 1px black solid; 
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover; 
+}
+
+.white{
+    background-color: white;
+}
