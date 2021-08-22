@@ -47,46 +47,4 @@
     }
       module.init()
 })()
-
-// let module = (function(){
-     
-//                 let squares = document.querySelectorAll('.grid div') 
-//                 let startBtn = document.querySelector('.start')
-//                  let numberOfSquares = 9
-            
-            
-//                 startBtn.addEventListener('click', start) 
-            
-//                 function start(){
-//                     setInterval(moleRandomizer,700)
-//                 } 
-
-//                 function moleRandomizer(){
-//                     let randomNumber = Math.floor((Math.random()* numberOfSquares))
-//                     for(let i=0; i < numberOfSquares; i++){
-//                         if(squares[i].classList.contains('mole')){
-//                             squares[i].classList.remove('mole')
-//                         }
-//                     squares[randomNumber].classList.add('mole')
-//                     }
-//                 }
-
-//                 function addPoints(){
-//                     let pointsScored = 0
-//                     let displayScore = document.querySelector('.player')
-//                     squares.forEach(square => {
-//                         square.onclick = function(){
-//                             if(square.classList.contains('mole')){
-//                                 pointsScored++ 
-//                                 console.log('hello')
-//                             }
-//                         }
-//                     })
-//                 }
-
-//             return {
-//                  addPoints
-//                 }
-          
-//     })()
     
